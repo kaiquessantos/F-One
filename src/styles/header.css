@@ -67,6 +67,7 @@ header {
   }
 
   #mobile_button {
+    color: black;
     display: block;
     border: none;
     background-color: transparent;
