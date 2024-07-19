@@ -3,6 +3,7 @@
 #home {
   display: flex;
   padding: 20px 10%;
+  background-image: linear-gradient(to bottom, rgb(8, 8, 8), #ff3737 75%, white);
 }
 
 #img_home {
@@ -15,14 +16,26 @@
   width: 100%;
   height: 500px;
   object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.125);
 }
 
 #text_home {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 60%;
   padding: 20px 5%;
+}
+
+#text_home h1 {
+  background-color: white;
+  padding: 0px 45px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.125);
+  text-shadow: 3px 2px 8px rgba(0, 0, 0, 0.125);
 }
 
 .title {
@@ -41,6 +54,7 @@
   #home {
     flex-direction: column-reverse;
     align-items: center;
+    background-image: linear-gradient(to bottom, rgb(8, 8, 8), #ff3737 75%, white);
   }
 
   #text_home {

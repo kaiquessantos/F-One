@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 20px 10%;
+  background-image: linear-gradient(to bottom, white 60%, #09E3E2);
 }
 
 #text_lewis .title span {
@@ -22,6 +23,8 @@
   width: 70%;
   height: 400px;
   object-fit: cover;
+  border-radius: 10px 0px 10px 0px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.125);
 }
 
 @media screen and (max-width: 670px) {

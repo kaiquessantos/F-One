@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+#mercedes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10%;
+  background-image: linear-gradient(to bottom, #09E3E2, #2F0A58);
+}
+
+#mercedes h1 {
+  margin-bottom: 10px;
+  padding: 0px 15px;
+  color: #09E3E2;
+  text-shadow: 5px 5px 14px rgba(0, 0, 0, 0.1);
+  background-color: #2F0A58;
+  border-radius: 10px 0px 10px 0px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.125);
+  text-shadow: 3px 2px 8px rgba(0, 0, 0, 0.125);
+}
+
+#img_mercedes_logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#img_sec_mercedes_logo {
+  object-fit: cover;
+}
+
+#mercedes_display {
+  display: flex;
+  align-items: center;
+}
+
+#text_mercedes {
+  width: 50%;
+  padding: 0px 15px;
+}
+
+#img_mercedes_car {
+  width: 50%;
+}
+
+#img_sec_mercedes_car {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.125);
+}
+
+@media screen and (max-width: 1110px) {
+  #mercedes_display {
+    flex-direction: column;
+  }
+
+  #text_mercedes {
+    width: 100%;
+  }
+
+  #img_mercedes_car {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  #img_sec_mercedes_car {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  #img_mercedes_car {
+    width: 100%;
+  }
+}
