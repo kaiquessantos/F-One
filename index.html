@@ -7,60 +7,57 @@
   <link rel="stylesheet" href="src/styles/style.css">
   <link rel="stylesheet" href="src/styles/header.css">
   <link rel="stylesheet" href="src/styles/home.css">
+  <link rel="stylesheet" href="src/styles/lewis.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-  <header>
-    <nav id="nav_bar">
-      <i class="fa-solid fa-flag-checkered" id="nav_logo"> F1</i>
-
-      <ul id="nav_list">
-        <li class="nav-list-item" id="list_item_home">
-          <a href="#">Home</a>
-        </li>
-        <li class="nav-list-item" id="list_item_lewis">
-          <a href="#">Lewis</a>
-        </li>
-        <li class="nav-list-item" id="list_item_norris">
-          <a href="#">Norris</a>
-        </li>
-        <li class="nav-list-item" id="list_item_max">
-          <a href="#">Max</a>
-        </li>
-        <li class="nav-list-item" id="list_item_senna">
-          <a href="#">Senna</a>
-        </li>
-      </ul>
-
-      <button id="mobile_button">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-
-    </nav>
-
-    <div id="mobile_menu">
-      <ul id="mobile_nav_list">
-        <li class="nav-list-item">
-          <a href="#">Home</a>
-        </li>
-        <li class="nav-list-item">
-          <a href="#">Lewis</a>
-        </li>
-        <li class="nav-list-item">
-          <a href="#">Norris</a>
-        </li>
-        <li class="nav-list-item">
-          <a href="#">Max</a>
-        </li>
-        <li class="nav-list-item">
-          <a href="#">Senna</a>
-        </li>
-      </ul>
-    </div>
-  </header>
+    <header>
+      <nav id="nav_bar">
+        <i class="fa-solid fa-flag-checkered" id="nav_logo"> F1</i>
+        <ul id="nav_list">
+          <li class="nav-list-item" id="list_item_home">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-list-item" id="list_item_lewis">
+            <a href="#lewis">Lewis</a>
+          </li>
+          <li class="nav-list-item" id="list_item_norris">
+            <a href="#">Norris</a>
+          </li>
+          <li class="nav-list-item" id="list_item_max">
+            <a href="#">Max</a>
+          </li>
+          <li class="nav-list-item" id="list_item_senna">
+            <a href="#">Senna</a>
+          </li>
+        </ul>
+        <button id="mobile_button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-list-item">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#lewis">Lewis</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#">Norris</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#">Max</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#">Senna</a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
   <main id="content">
     <section id="home">
@@ -70,10 +67,23 @@
       </div>
 
       <div id="text_home">
-        <h1 class="title">Fórmula 1</h1>
+        <h1 class="title">Fórmula <span>1</span></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatibus magni doloribus, rem vel modi libero, sint quo dolorem officia reprehenderit. Doloribus dignissimos quia inventore asperiores expedita quos, cupiditate unde? Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil officia soluta eum blanditiis alias iure, quis, ipsa tenetur, assumenda voluptas illo! Dolor explicabo repudiandae labore libero aperiam omnis beatae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsum dolor corporis pariatur sed ea voluptatibus quam voluptates. Quo voluptatem optio soluta veniam facilis numquam nisi praesentium id voluptas repellendus!</p>
       </div>
-      
+
+    </section>
+
+    <section id="lewis">
+
+      <div id="text_lewis">
+        <h1 class="title">Lewis <span>Hamilton</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime iusto corrupti mollitia velit quisquam doloribus ipsum eum veniam. Dignissimos excepturi dolor animi, eaque aut sequi nulla. Architecto, recusandae minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis saepe debitis temporibus omnis ipsam ullam id fuga obcaecati? Nobis voluptas, incidunt laboriosam distinctio harum aspernatur corporis rerum quo iusto quis.</p>
+      </div>
+
+      <div id="img_lewis">
+        <img id="img_sec_lewis" src="src/images/lewis.jpg" alt="">
+      </div>
+
     </section>
   </main>
 

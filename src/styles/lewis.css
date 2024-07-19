@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#lewis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 10%;
+}
+
+#text_lewis .title span {
+  color: #09E3E2;
+}
+
+#img_lewis  {
+  padding-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#img_sec_lewis {
+  width: 70%;
+  height: 400px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 670px) {
+  #img_sec_lewis {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+}
