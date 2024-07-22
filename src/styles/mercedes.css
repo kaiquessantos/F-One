@@ -5,18 +5,21 @@
   flex-direction: column;
   align-items: center;
   padding: 20px 10%;
-  background-image: linear-gradient(to bottom, #09E3E2, #2F0A58);
+  background-image: linear-gradient(to bottom, #09E3E2, #2F0A58, black );
 }
 
 #mercedes h1 {
   margin-bottom: 10px;
   padding: 0px 15px;
   color: #09E3E2;
-  text-shadow: 5px 5px 14px rgba(0, 0, 0, 0.1);
   background-color: #2F0A58;
   border-radius: 10px 0px 10px 0px;
   box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.125);
   text-shadow: 3px 2px 8px rgba(0, 0, 0, 0.125);
+}
+
+#mercedes p {
+  color: #09E3E2;
 }
 
 #img_mercedes_logo {
@@ -36,7 +39,7 @@
 
 #text_mercedes {
   width: 50%;
-  padding: 0px 15px;
+  padding: 0px 15px 0px 0px;
 }
 
 #img_mercedes_car {
