@@ -56,6 +56,7 @@
 }
 
 @media screen and (max-width: 1110px) {
+  
   #mercedes_display {
     flex-direction: column;
   }
@@ -72,11 +73,12 @@
 
 @media screen and (max-width: 870px) {
   #img_sec_mercedes_car {
-    height: 300px;
+    height: 280px;
   }
 }
 
 @media screen and (max-width: 670px) {
+
   #img_mercedes_car {
     width: 100%;
   }

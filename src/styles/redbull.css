@@ -43,3 +43,33 @@
 #text_redbull {
   width: 30%;
 }
+
+@media screen and (max-width: 1000px) {
+  
+  #display_redbull {
+    flex-direction: column-reverse;
+  }
+
+  #text_redbull {
+    width: 100%;
+  }
+
+  #redbull_car {
+    width: 80%;
+  }
+
+  #redbull_img_car {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+
+  #redbull_car {
+    width: 100%;
+  }
+
+  #redbull_img_car {
+    height: 280px;
+  }
+}
