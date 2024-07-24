@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+#redbull {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10%;
+  background-image: linear-gradient(to bottom, #F13420, #dbcd02);
+}
+
+#redbull_logo {
+  background-color: black;
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.125);
+}
+
+#redbull_sec_logo {
+  width: 100%;
+  object-fit: cover;
+}
+
+#display_redbull {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#redbull_car {
+  width: 70%;
+}
+
+#redbull_img_car {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.125);
+}
+
+#text_redbull {
+  width: 30%;
+}
