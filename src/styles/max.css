@@ -16,10 +16,6 @@
 
 #max > h1 > span {
   color: #F13420;
-  padding: 0px 15px;
-  border-radius: 9px 0px 9px 9px;
-  background-color: #ffee00;
-  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.125);
 }
 
 #img_max {
