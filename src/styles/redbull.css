@@ -9,6 +9,11 @@
   background-image: linear-gradient(to bottom, #F13420, #dbcd02);
 }
 
+#redbull > h1 > span {
+  color: #F13420;
+  text-shadow: 3px 2px 8px rgba(0, 0, 0, 0.125);
+}
+
 #redbull_logo {
   background-color: black;
   height: 175px;
