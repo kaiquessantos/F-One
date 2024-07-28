@@ -9,9 +9,13 @@
   background-image: linear-gradient(to bottom, #F13420, #dbcd02);
 }
 
+#redbull > h1 {
+  text-decoration: overline;
+  color: #c90202;
+}
+
 #redbull > h1 > span {
-  color: #F13420;
-  text-shadow: 3px 2px 8px rgba(0, 0, 0, 0.125);
+  color: black;
 }
 
 #redbull_logo {
